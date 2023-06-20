@@ -2,3 +2,37 @@
   font-family: customFont;
   src: url(./assets/fonts/Norse-Bold.otf);
 }
+
+body{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.image-div{
+background: url(./assets/images/bkgimage.jpg); 
+background-size: cover;
+height: 100vh;
+width: 33%;
+}
+
+.title-image{
+  background: rgba(0, 0, 0, .5);
+  font-size: 6em;
+  font-family: customFont;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 200px;
+}
+
+.title-image img{
+  height: 125px
+}
+
+.form-div{
+
+}
